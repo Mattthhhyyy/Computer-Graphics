@@ -1,0 +1,31 @@
+.body img{
+    max-width: 100%;
+    height: auto;
+}
+.body h1{
+    font-size: 200%;
+    color: white;
+    font-family: "Open Sans",OpenSans-fallback,sans-serif;
+}
+
+.body h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+*{
+    color: white;
+}
+
+.body{
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Open Sans",OpenSans-fallback,sans-serif;
+    font-size: 2.5vh;
+    line-height: 1.75;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    /* background-color:#fffff2; */
+    z-index: -1;
+}

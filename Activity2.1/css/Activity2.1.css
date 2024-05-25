@@ -1,0 +1,21 @@
+.text-wrapper {
+    border: 8px solid #FED9B7;
+    background-color: #00AFB9;
+    display: inline-block;
+    vertical-align: bottom;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 20%;
+    padding: 15px;
+}
+
+body{
+    color: white;
+}
+
+#myCanvas {
+    border: 8px solid #FED9B7;
+    background-color: #00AFB9;
+    margin-top: 8%;
+    }

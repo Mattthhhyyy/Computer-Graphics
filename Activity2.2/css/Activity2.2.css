@@ -1,0 +1,9 @@
+#myCanvas{
+    border: 2px solid #cd6daf;
+    
+    background-image: linear-gradient(to bottom right,#ec92a1 0%,#f0e8df 100%);
+    border-width: 10px;
+    /* background-color: #ffffff; */
+    margin-top: 6%;
+    margin-left: 30%;
+    }

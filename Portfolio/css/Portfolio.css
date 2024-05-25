@@ -1,0 +1,325 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Brush Script MT", cursive;
+}
+
+body{
+    background-image: linear-gradient(to bottom right,#00AFB9 0%,#FED9B7 100%);
+    background-repeat: no-repeat;
+    min-height: 400vh;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+/* navigation bar 2 */
+    
+    .Activities{
+        padding-left: 35%;
+    }
+    
+    h1{
+        color: #2b5b41;
+    }
+    
+    .nav-links{
+    margin-top: 80px;
+    list-style: none;
+    flex-direction: column;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    height: 100vh;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.5s ease-in-out;
+    padding: 10px;
+    
+    }
+    
+    .list{
+        margin-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-links li {
+    margin: 10px
+    }
+    
+    .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 10px;
+    background-color: #00AFB9;
+    }
+    
+    .menu div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    margin-top: 30%;
+    }
+    
+    /* Responsive */
+    @media (max-width: 2000vh) {
+    .nav-links {
+    position: fixed;
+    right: -90%;
+    top: 0;
+    height: 92vh;
+    width: 20%;
+    background-color: rgb(255,255,255,0.8);
+    align-items: center;
+    z-index: 2;
+    }
+    
+    .nav-links a:hover{
+        background: rgba(255, 255, 255, 0.5);
+        transition: .5s;
+    }
+    
+    .menu {
+    margin-top: 1%;
+    margin-left: 2%;
+    display: block;
+    cursor: pointer;
+    }
+    
+    }
+    
+    .nav-active {
+    left: 0;
+    }
+    
+    .toggle .line1 {
+    transform: rotate(45deg) translate(5px, 8px);
+    }
+    
+    .toggle .line2 {
+    opacity: 0;
+    }
+    
+    .toggle .line3 {
+    transform: rotate(-45deg) translate(11px, -14px);
+    }
+    
+
+/*end*/
+
+#logoA{
+    color: white;
+    font-size: 4.5vmin;
+    line-height: 80px;  
+    padding: 7px 13px;
+    font-weight: bold;  
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+#logoA:hover{
+    background: rgba(255, 255, 255, 0.5);
+    transition: .5s;
+}
+
+#logoB{
+    color: #42bab8;
+    font-size: 15px;
+    line-height: 80px;  
+    padding: 7px 13px;
+    font-weight: bold;  
+    margin-left: 13%;
+    border-radius: 10px;
+}
+
+.greenNav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b5b41;
+    background-image: linear-gradient(135deg,#0081A7 0%,#00AFB9 100%);
+}   
+/* background-image: linear-gradient(135deg,#00AFB9 0%,#FED9B7 100%); */
+.greenNav ul{
+    float: right;
+    margin-right: 10%;
+}
+.greenNav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.greenA{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 10px;
+}
+
+.greenLi img{
+    max-width: 4vmin;
+    max-height: 4vmin;
+    margin-right: 1vmin;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.greenA:hover{
+    background: rgba(255, 255, 255, 0.5);
+    transition: .5s;
+}
+
+/* Boxes */
+
+.name{
+    left: 25%;
+    top : 30%;
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    background-image: linear-gradient(to bottom right,#00AFB9 0%,#FED9B7 100%);
+    border-radius: 2vmin;
+}
+
+.name h1{
+    color: white;
+    text-align: center;
+    line-height: 20vmin;
+}
+
+.mainBox{
+    width: 90%;
+    height: 140vmin;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    border-radius: 20px;
+    background-color: rgb(254, 255, 255,0.3);
+    /* background-image: linear-gradient(to bottom right,#00AFB9 10%,#FED9B7 100%); */
+}
+
+.mainBox2{
+    width: 100%;
+    height: 140vmin;
+    position: absolute;
+    top: 150vmin;
+    border-radius: 20px;
+    background-color: rgb(254, 255, 255,0.3);
+}
+
+.box1{
+    width: 40%;
+    height: 35%;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.box1 h1{
+    text-align: center;
+    color: white;
+    background-color: #00AFB9;
+    width: 45%;
+    margin-top: 4%;
+    margin-left: 27%;
+    border-radius: 10px;
+}
+
+.box1 img{
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+    border-radius: 20px;
+}
+
+.box2{
+    width: 40%;
+    height: 35%;
+    position: absolute;
+    top: 10%;
+    left: 53%;
+    border-radius: 20px;
+    background-color: rgb(254, 255, 255,0.4);
+}
+
+.box2 img{
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+    border-radius: 20px;
+}
+
+.box2 h1{
+    text-align: center;
+    color: white;
+    background-color: #00AFB9;
+    width: 45%;
+    margin-top: 4%;
+    margin-left: 27%;
+    border-radius: 10px;
+}
+
+.box3{
+    width: 40%;
+    height: 35%;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    border-radius: 20px;
+    background-color: rgb(254, 255, 255,0.4);
+}
+
+.box3 img{
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+    border-radius: 20px;
+}
+
+.box3 h1{
+    text-align: center;
+    color: white;
+    background-color: #00AFB9;
+    width: 45%;
+    margin-top: 4%;
+    margin-left: 27%;
+    border-radius: 10px;
+}
+
+
+#allImg-hover-zoom {
+    height: 300px; /* Set this to the desired height */
+    overflow: hidden; /* This is necessary to hide the overflowing of child elements */
+  }
+  
+  #allImg-hover-zoom img {
+    transition: transform .5s ease; /* This sets the transition property for smooth transformation of images */
+    width: 100%; /* This sets the width of the image to 100% of the container */
+  }
+  
+  #allImg-hover-zoom:hover img {
+    transform: scale(1.5); /* This sets the scale transformation on image hover event */
+  }
+
+.mainBox h1:hover{
+    background: rgba(255, 255, 255, 0.5);
+    transition: .5s;
+}

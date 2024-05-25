@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Activity2.1/css/Activity2.1.css">
+    <link rel="stylesheet" href="Portfolio/css/Portfolio.css">
+    <style>*{overflow: hidden;}</style>
+</head>
+<body>
+
+    <nav class="greenNav">
+        <div class="menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <label class="logo">
+            <a id="logoA" href="index.html">Computer Graphics</a>
+            <a id="logoB">Portfolio</a>
+        </label>
+
+        <ul class="nav-links">
+            <div class="list">
+                <li><a href="Activity1.1.html">Activity1.1</a></li>
+                <li><a href="Activity1.2.html">Activity1.2</a></li>
+                <li><a href="Activity1.3.html">Activity1.3</a></li>
+                <li><a href="Activity2.1.html">Activity2.1</a></li>
+                <li><a href="Activity2.2.html">Activity2.2</a></li>
+                <li><a href="Activity2.3.html">Activity2.3</a></li>
+            </div>
+        </ul>
+        <ul class="greenUl">
+            <li class="greenLi"><a class="greenA" href="Porfolio.html">Home</a></li>
+        </ul>
+    </nav>
+    
+    <div class="text-wrapper">
+        <p>
+            Default : 
+            <br>
+            x:300
+            <br>
+            y:200
+            <br>
+            size(1-5):3
+        </p>
+        <input type="number" id="txtX" placeholder="X" min="70" max="530" onchange="upper(); lower(); middle()" />
+        <input type="number" id="txtY" placeholder="Y" min="70" max="330" onchange="upper(); lower(); middle()" />
+        <br>
+        <input type="number" id="size" placeholder="Size" max="5" min="1" onchange="upper(); lower(); middle()" oninput="s = this.value" />
+    </div>
+    <canvas id="myCanvas" width="600" height="400"></canvas>
+    <script src="Activity2.1/javascipt/Activity2.1.js"></script>
+    <script src="Portfolio/javascipt/Portfolio.js"></script>
+</body>
+</html>
